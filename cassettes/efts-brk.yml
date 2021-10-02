@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://efts.sec.gov/LATEST/search-index
+    body:
+      encoding: UTF-8
+      string: '{"keysTyped":"BRK"}'
+    headers:
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2580'
+      X-Amzn-Requestid:
+      - 6009741c-f467-4317-b00d-819f2dd2d504
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Amz-Apigw-Id:
+      - GPDxIEt3IAMFUvg=
+      X-Amzn-Trace-Id:
+      - Root=1-614f8007-310bc62527839d216a6b9bf3;Sampled=0
+      X-Amz-Cf-Pop:
+      - DFW55-C2
+      X-Amz-Cf-Id:
+      - vK_d1V0t_HM98-Bla03g0LKJzQe0Bj6E00dMQ7XGemMzIDSkDIEvZA==
+      Date:
+      - Sat, 25 Sep 2021 20:01:11 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000 ; includeSubDomains ; preload
+    body:
+      encoding: UTF-8
+      string: '{"took":0,"timed_out":false,"_shards":{"total":1,"successful":1,"skipped":0,"failed":0},"hits":{"total":{"value":10,"relation":"eq"},"max_score":845.7212,"hits":[{"_index":"edgar_entity_20210924_040349","_type":"_doc","_id":"1067983","_score":845.7212,"_source":{"entity":"BERKSHIRE
+        HATHAWAY INC (BRK-B, BRK-A)","entity_words":"BERKSHIRE HATHAWAY INC (BRK-B,
+        BRK-A)","tickers":"BRK-B, BRK-A","rank":59972895}},{"_index":"edgar_entity_20210924_040349","_type":"_doc","_id":"1109354","_score":35.371925,"_source":{"entity":"BRUKER
+        CORP (BRKR)","entity_words":"BRUKER CORP (BRKR)","tickers":"BRKR","rank":30162789}},{"_index":"edgar_entity_20210924_040349","_type":"_doc","_id":"933974","_score":30.958382,"_source":{"entity":"Brooks
+        Automation, Inc. (BRKS)","entity_words":"Brooks Automation, Inc. (BRKS)","tickers":"BRKS","rank":37614893}},{"_index":"edgar_entity_20210924_040349","_type":"_doc","_id":"1049782","_score":30.958382,"_source":{"entity":"BROOKLINE
+        BANCORP INC (BRKL)","entity_words":"BROOKLINE BANCORP INC (BRKL)","tickers":"BRKL","rank":36238453}},{"_index":"edgar_entity_20210924_040349","_type":"_doc","_id":"1871638","_score":29.809723,"_source":{"entity":"BurTech
+        Acquisition Corp. (BRKH)","entity_words":"BurTech Acquisition Corp. (BRKH)","tickers":"BRKH","rank":999633}},{"_index":"edgar_entity_20210924_040349","_type":"_doc","_id":"1871770","_score":28.733534,"_source":{"entity":"BRKR.IO,
+        Inc.","entity_words":"BRKR.IO, Inc.","rank":468}},{"_index":"edgar_entity_20210924_040349","_type":"_doc","_id":"1387495","_score":26.617548,"_source":{"entity":"BRK
+        Brands, Inc.","entity_words":"BRK Brands, Inc.","rank":3244927}},{"_index":"edgar_entity_20210924_040349","_type":"_doc","_id":"1799675","_score":25.979815,"_source":{"entity":"Brkovich
+        Davor","entity_words":"Brkovich Davor","rank":6218}},{"_index":"edgar_entity_20210924_040349","_type":"_doc","_id":"1456736","_score":19.454313,"_source":{"entity":"Summer
+        Street BRK Investors, LLC","entity_words":"Summer Street BRK Investors, LLC","rank":27863}},{"_index":"edgar_entity_20210924_040349","_type":"_doc","_id":"1482029","_score":19.111433,"_source":{"entity":"Robert
+        Brkich Construction Corp.","entity_words":"Robert Brkich Construction Corp.","rank":346}}]},"query":{"query":{"bool":{"should":[{"match":{"entity":{"query":"BRK","operator":"and"}}},{"match":{"tickers":{"query":"BRK","operator":"and","boost":100}}},{"exists":{"field":"tickers","boost":10}}],"must":[{"bool":{"should":[{"match":{"entity":{"query":"BRK","operator":"and"}}},{"match":{"_id":{"query":"BRK"}}}]}}]}},"from":0,"size":10}}'
+  recorded_at: Sat, 25 Sep 2021 20:01:11 GMT
+recorded_with: VCR 6.0.0
