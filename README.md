@@ -29,7 +29,7 @@ https://www.sec.gov/edgar/search/
 
 Similarly...
 
-search_result = SecEdgar::FullTextSearch.perform(keys_typed: 'BRK')`
+`search_result = SecEdgar::FullTextSearch.perform(keys_typed: 'BRK')`
 
 When `search_result.success? # true`
 
