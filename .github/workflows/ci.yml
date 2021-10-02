@@ -64,9 +64,9 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-gems-
 
-    - name: Set to Ruby 2.6.5
+    - name: Set to Ruby 1.9.8
       run: |
-        echo "2.6.5" > .ruby-version
+        echo "1.9.8" > .ruby-version
         VERSION=`cat .ruby-version` && echo "Using Ruby ${VERSION}"
 
     - uses: ruby/setup-ruby@v1
