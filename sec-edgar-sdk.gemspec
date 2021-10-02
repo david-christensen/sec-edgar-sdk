@@ -1,6 +1,8 @@
+require_relative 'lib/sec-edgar/version'
+
 Gem::Specification.new do |s|
   s.name        = 'sec-edgar-sdk'
-  s.version     = '0.0.0'
+  s.version     = SecEdgar::VERSION
   s.summary     = 'SEC EDGAR SDK'
   s.description = 'A Ruby SDK for the SEC EDGAR API'
   s.authors     = ['David Christensen']
