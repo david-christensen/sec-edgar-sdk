@@ -9,6 +9,6 @@ Gem::Specification.new do |s|
   s.files       = Dir['lib/**/*.rb']
   s.homepage    = 'https://github.com/david-christensen/sec-edgar-sdk'
   s.license     = 'MIT'
-  s.add_dependency 'httparty', '~> 0.19', '>= 0.19.0'
-  s.add_dependency 'activesupport', '~> 6.1', '>= 6.1.4.1'
+  s.add_dependency 'httparty', '~> 0.22.0'
+  s.add_dependency 'activesupport', '~> 7.1', '>= 7.1.3.2'
 end
