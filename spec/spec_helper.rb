@@ -4,6 +4,8 @@ require 'active_support/time'
 
 require_relative '../lib/sec-edgar-sdk'
 
+ENV['SEC_EDGAR_USER_AGENT'] = 'Sdk Tests rspec@do-not-reply.com'
+
 require 'vcr'
 
 VCR.configure do |c|

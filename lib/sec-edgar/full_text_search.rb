@@ -13,9 +13,18 @@ module SecEdgar
     # https://www.sec.gov/edgar/searchedgar/companysearch.html
     #
     def self.perform(keys_typed:, narrow: false)
+      unless ENV['SEC_EDGAR_USER_AGENT'].present?
+        raise StandardError, "SEC_EDGAR_USER_AGENT not set!"
+      end
+
       response = post(
         '/LATEST/search-index',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          'User-Agent' => ENV['SEC_EDGAR_USER_AGENT'],
+          'Accept-Encoding' => 'gzip, deflate',
+          'Host' => 'efts.sec.gov'
+        },
         body: {
           keysTyped: keys_typed,
           narrow: narrow
