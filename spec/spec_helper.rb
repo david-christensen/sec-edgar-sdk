@@ -1,4 +1,5 @@
 require 'pry'
+require 'active_support'
 require 'active_support/time'
 
 require_relative '../lib/sec-edgar-sdk'
