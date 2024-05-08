@@ -23,22 +23,7 @@ module SecEdgar
         xml_doc.css('entry').each do |entry_node|
           entry = {}
           entry['title'] = entry_node.css('title').text
-
-          begin
-            form, remainder = entry['title'].split(" - ")
-            name, cik, context = remainder.split(" (")
-            cik.gsub!(')', '')
-            context = context.gsub(')', '').gsub(' ', '_').downcase
-
-            entry['title_data'] = {
-              'form' => form,
-              'name' => name,
-              'cik' => cik,
-              'context' => context
-            }
-          rescue
-            entry['title_data'] = nil
-          end
+          entry['title_data'] = SecEdgar::Parsers::RSS.parse_title(entry['title'])
 
           entry['link'] = entry_node.css('link').attr('href').value
           entry['form'] = entry_node.css('category').attr('term').value
