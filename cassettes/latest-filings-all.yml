@@ -1,0 +1,1093 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.sec.gov/cgi-bin/browse-edgar?CIK=&action=getcurrent&company=&count=100&dateb=&output=atom&owner=include&start=0&type=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Sdk Tests rspec@do-not-reply.com
+      Host:
+      - www.sec.gov
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/atom+xml
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - no-cache
+      Date:
+      - Wed, 08 May 2024 17:45:01 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - Transfer-Encoding
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000 ; includeSubDomains ; preload
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="ISO-8859-1" ?>
+        <feed xmlns="http://www.w3.org/2005/Atom">
+        <title>Latest Filings - Wed, 08 May 2024 13:45:01 EDT</title>
+        <link rel="alternate" href="/cgi-bin/browse-edgar?action=getcurrent"/>
+        <link rel="self" href="/cgi-bin/browse-edgar?action=getcurrent"/>
+        <id>https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent</id>
+        <author><name>Webmaster</name><email>webmaster@sec.gov</email></author>
+        <updated>2024-05-08T13:45:01-04:00</updated>
+        <entry>
+        <title>6-K - GSK plc (0001131399) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1131399/000165495424005772/0001654954-24-005772-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001654954-24-005772 &lt;b&gt;Size:&lt;/b&gt; 84 KB
+        </summary>
+        <updated>2024-05-08T13:44:08-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="6-K"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001654954-24-005772</id>
+        </entry>
+        <entry>
+        <title>6-K - ONCOLYTICS BIOTECH INC (0001129928) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1129928/000112992824000031/0001129928-24-000031-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001129928-24-000031 &lt;b&gt;Size:&lt;/b&gt; 30 KB
+        </summary>
+        <updated>2024-05-08T13:43:00-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="6-K"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001129928-24-000031</id>
+        </entry>
+        <entry>
+        <title>D - Buckeye RE Industrial Partners, LLC (0002022689) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/2022689/000202268924000001/0002022689-24-000001-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0002022689-24-000001 &lt;b&gt;Size:&lt;/b&gt; 6 KB
+        </summary>
+        <updated>2024-05-08T13:42:50-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="D"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0002022689-24-000001</id>
+        </entry>
+        <entry>
+        <title>8-K - Ocean Thermal Energy Corp (0000827099) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/827099/000165495424005770/0001654954-24-005770-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001654954-24-005770 &lt;b&gt;Size:&lt;/b&gt; 162 KB
+        &lt;br&gt;Item 4.01: Changes in Registrant&#39;s Certifying Accountant
+        &lt;br&gt;Item 9.01: Financial Statements and Exhibits
+        </summary>
+        <updated>2024-05-08T13:42:21-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="8-K"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001654954-24-005770</id>
+        </entry>
+        <entry>
+        <title>6-K - GRUPO FINANCIERO GALICIA SA (0001114700) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1114700/000111470024000019/0001114700-24-000019-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001114700-24-000019 &lt;b&gt;Size:&lt;/b&gt; 37 KB
+        </summary>
+        <updated>2024-05-08T13:41:31-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="6-K"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001114700-24-000019</id>
+        </entry>
+        <entry>
+        <title>424B2 - CITIGROUP INC (0000831001) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/831001/000095010324006458/0000950103-24-006458-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0000950103-24-006458 &lt;b&gt;Size:&lt;/b&gt; 269 KB
+        </summary>
+        <updated>2024-05-08T13:41:26-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="424B2"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0000950103-24-006458</id>
+        </entry>
+        <entry>
+        <title>424B2 - Citigroup Global Markets Holdings Inc. (0000200245) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/200245/000095010324006458/0000950103-24-006458-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0000950103-24-006458 &lt;b&gt;Size:&lt;/b&gt; 269 KB
+        </summary>
+        <updated>2024-05-08T13:41:26-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="424B2"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0000950103-24-006458</id>
+        </entry>
+        <entry>
+        <title>D - Greenpeak Continuation Fund I (Academia) Gmbh &amp; Co. KG (0002022582) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/2022582/000187864624000015/0001878646-24-000015-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001878646-24-000015 &lt;b&gt;Size:&lt;/b&gt; 7 KB
+        &lt;br&gt;Item 3C: Investment Company Act Section 3(c)
+        &lt;br&gt;Item 3C.7: Section 3(c)(7)
+        </summary>
+        <updated>2024-05-08T13:40:50-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="D"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001878646-24-000015</id>
+        </entry>
+        <entry>
+        <title>6-K - Lloyds Banking Group plc (0001160106) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1160106/000165495424005769/0001654954-24-005769-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001654954-24-005769 &lt;b&gt;Size:&lt;/b&gt; 28 KB
+        </summary>
+        <updated>2024-05-08T13:40:40-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="6-K"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001654954-24-005769</id>
+        </entry>
+        <entry>
+        <title>D/A - NB Specialty Finance Fund III (Cayman) Feeder LP (0001972906) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1972906/000197290624000001/0001972906-24-000001-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001972906-24-000001 &lt;b&gt;Size:&lt;/b&gt; 11 KB
+        &lt;br&gt;Item 3C: Investment Company Act Section 3(c)
+        &lt;br&gt;Item 3C.7: Section 3(c)(7)
+        </summary>
+        <updated>2024-05-08T13:39:57-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="D/A"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001972906-24-000001</id>
+        </entry>
+        <entry>
+        <title>D/A - DVM Systems, LLC (0001469651) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1469651/000146965124000008/0001469651-24-000008-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001469651-24-000008 &lt;b&gt;Size:&lt;/b&gt; 8 KB
+        </summary>
+        <updated>2024-05-08T13:39:04-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="D/A"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001469651-24-000008</id>
+        </entry>
+        <entry>
+        <title>13F-HR - RiverVest Venture Management LLC (0001812549) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1812549/000110465924058588/0001104659-24-058588-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-24-058588 &lt;b&gt;Size:&lt;/b&gt; 5 KB
+        </summary>
+        <updated>2024-05-08T13:38:27-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="13F-HR"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001104659-24-058588</id>
+        </entry>
+        <entry>
+        <title>10-Q - RAYONIER ADVANCED MATERIALS INC. (0001597672) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1597672/000159767224000014/0001597672-24-000014-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001597672-24-000014 &lt;b&gt;Size:&lt;/b&gt; 6 MB
+        </summary>
+        <updated>2024-05-08T13:38:10-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="10-Q"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001597672-24-000014</id>
+        </entry>
+        <entry>
+        <title>D - BI-0312 Fund I, a series of Red Beard Ventures Syndicates, LP (0002015604) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/2015604/000201560424000002/0002015604-24-000002-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0002015604-24-000002 &lt;b&gt;Size:&lt;/b&gt; 7 KB
+        &lt;br&gt;Item 3C: Investment Company Act Section 3(c)
+        &lt;br&gt;Item 3C.1: Section 3(c)(1)
+        </summary>
+        <updated>2024-05-08T13:38:04-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="D"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0002015604-24-000002</id>
+        </entry>
+        <entry>
+        <title>D - 65 TUTHILL LLC (0002022594) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/2022594/000202259424000001/0002022594-24-000001-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0002022594-24-000001 &lt;b&gt;Size:&lt;/b&gt; 6 KB
+        </summary>
+        <updated>2024-05-08T13:38:03-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="D"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0002022594-24-000001</id>
+        </entry>
+        <entry>
+        <title>D/A - Monomoy Properties, LLC (0001656519) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1656519/000110465924058586/0001104659-24-058586-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-24-058586 &lt;b&gt;Size:&lt;/b&gt; 8 KB
+        &lt;br&gt;Item 3C: Investment Company Act Section 3(c)
+        &lt;br&gt;Item 3C.5: Section 3(c)(5)
+        </summary>
+        <updated>2024-05-08T13:36:45-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="D/A"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001104659-24-058586</id>
+        </entry>
+        <entry>
+        <title>SD - SMITH A O CORP (0000091142) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/91142/000009114224000134/0000091142-24-000134-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0000091142-24-000134 &lt;b&gt;Size:&lt;/b&gt; 87 KB
+        </summary>
+        <updated>2024-05-08T13:36:04-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="SD"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0000091142-24-000134</id>
+        </entry>
+        <entry>
+        <title>13F-HR - Focused Wealth Management, Inc (0001586052) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1586052/000158605224000002/0001586052-24-000002-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001586052-24-000002 &lt;b&gt;Size:&lt;/b&gt; 98 KB
+        </summary>
+        <updated>2024-05-08T13:35:35-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="13F-HR"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001586052-24-000002</id>
+        </entry>
+        <entry>
+        <title>10-Q - Liberty Broadband Corp (0001611983) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1611983/000155837024007273/0001558370-24-007273-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001558370-24-007273 &lt;b&gt;Size:&lt;/b&gt; 7 MB
+        </summary>
+        <updated>2024-05-08T13:35:30-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="10-Q"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001558370-24-007273</id>
+        </entry>
+        <entry>
+        <title>10-D/A - COMM 2015-LC23 Mortgage Trust (0001654330) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1654330/000188852424006940/0001888524-24-006940-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001888524-24-006940 &lt;b&gt;Size:&lt;/b&gt; 1 MB
+        </summary>
+        <updated>2024-05-08T13:34:15-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="10-D/A"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001888524-24-006940</id>
+        </entry>
+        <entry>
+        <title>424B2 - Morgan Stanley Finance LLC (0001666268) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1666268/000183988224014914/0001839882-24-014914-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001839882-24-014914 &lt;b&gt;Size:&lt;/b&gt; 1 MB
+        </summary>
+        <updated>2024-05-08T13:33:44-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="424B2"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001839882-24-014914</id>
+        </entry>
+        <entry>
+        <title>424B2 - MORGAN STANLEY (0000895421) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/895421/000183988224014914/0001839882-24-014914-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001839882-24-014914 &lt;b&gt;Size:&lt;/b&gt; 1 MB
+        </summary>
+        <updated>2024-05-08T13:33:44-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="424B2"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001839882-24-014914</id>
+        </entry>
+        <entry>
+        <title>487 - GUGGENHEIM DEFINED PORTFOLIOS, SERIES 2379 (0001983231) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1983231/000152862124000502/0001528621-24-000502-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001528621-24-000502 &lt;b&gt;Size:&lt;/b&gt; 610 KB
+        </summary>
+        <updated>2024-05-08T13:33:43-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="487"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001528621-24-000502</id>
+        </entry>
+        <entry>
+        <title>10-Q - LOUISIANA-PACIFIC CORP (0000060519) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/60519/000162828024021527/0001628280-24-021527-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001628280-24-021527 &lt;b&gt;Size:&lt;/b&gt; 16 MB
+        </summary>
+        <updated>2024-05-08T13:33:33-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="10-Q"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001628280-24-021527</id>
+        </entry>
+        <entry>
+        <title>424B2 - BARCLAYS BANK PLC (0000312070) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/312070/000148105724006592/0001481057-24-006592-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001481057-24-006592 &lt;b&gt;Size:&lt;/b&gt; 523 KB
+        </summary>
+        <updated>2024-05-08T13:33:16-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="424B2"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001481057-24-006592</id>
+        </entry>
+        <entry>
+        <title>13F-NT - Daiwa America Strategic Advisors Corp (0001512777) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1512777/000151277724000001/0001512777-24-000001-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001512777-24-000001 &lt;b&gt;Size:&lt;/b&gt; 2 KB
+        </summary>
+        <updated>2024-05-08T13:32:54-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="13F-NT"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001512777-24-000001</id>
+        </entry>
+        <entry>
+        <title>6-K - HSBC HOLDINGS PLC (0001089113) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1089113/000165495424005767/0001654954-24-005767-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001654954-24-005767 &lt;b&gt;Size:&lt;/b&gt; 24 KB
+        </summary>
+        <updated>2024-05-08T13:32:23-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="6-K"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001654954-24-005767</id>
+        </entry>
+        <entry>
+        <title>13F-HR - XR Securities LLC (0001531971) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1531971/000153197124000003/0001531971-24-000003-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001531971-24-000003 &lt;b&gt;Size:&lt;/b&gt; 185 KB
+        </summary>
+        <updated>2024-05-08T13:32:18-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="13F-HR"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001531971-24-000003</id>
+        </entry>
+        <entry>
+        <title>13F-HR - Souders Financial Advisors (0001811240) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1811240/000181124024000002/0001811240-24-000002-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001811240-24-000002 &lt;b&gt;Size:&lt;/b&gt; 82 KB
+        </summary>
+        <updated>2024-05-08T13:32:02-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="13F-HR"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001811240-24-000002</id>
+        </entry>
+        <entry>
+        <title>13F-HR - Foundry Partners, LLC (0001573913) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1573913/000157391324000004/0001573913-24-000004-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001573913-24-000004 &lt;b&gt;Size:&lt;/b&gt; 158 KB
+        </summary>
+        <updated>2024-05-08T13:31:55-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="13F-HR"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001573913-24-000004</id>
+        </entry>
+        <entry>
+        <title>10-Q - Target Group Inc. (0001586554) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1586554/000141057824000628/0001410578-24-000628-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001410578-24-000628 &lt;b&gt;Size:&lt;/b&gt; 7 MB
+        </summary>
+        <updated>2024-05-08T13:31:09-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="10-Q"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001410578-24-000628</id>
+        </entry>
+        <entry>
+        <title>6-K - Draganfly Inc. (0001786286) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1786286/000149315224018197/0001493152-24-018197-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001493152-24-018197 &lt;b&gt;Size:&lt;/b&gt; 41 KB
+        </summary>
+        <updated>2024-05-08T13:31:06-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="6-K"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001493152-24-018197</id>
+        </entry>
+        <entry>
+        <title>8-K - IGEN NETWORKS CORP (0001393540) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1393540/000147793224002571/0001477932-24-002571-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001477932-24-002571 &lt;b&gt;Size:&lt;/b&gt; 131 KB
+        &lt;br&gt;Item 4.01: Changes in Registrant&#39;s Certifying Accountant
+        </summary>
+        <updated>2024-05-08T13:30:35-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="8-K"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001477932-24-002571</id>
+        </entry>
+        <entry>
+        <title>X-17A-5 - PENROD FINANCIAL SERVICES, INC. (0000837078) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/837078/999999999724002521/9999999997-24-002521-index.htm"/>
+        <summary type="html">
+        &lt;b&gt;Film#:&lt;/b&gt; 24001122  &lt;b&gt;Filed:&lt;/b&gt; 2024-04-11 &lt;b&gt;AccNo:&lt;/b&gt; 9999999997-24-002521 &lt;b&gt;Size:&lt;/b&gt; 1 KB
+        </summary>
+        <updated>2024-05-08T13:30:02-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="X-17A-5"/>
+        <id>urn:tag:sec.gov,2008:accession-number=9999999997-24-002521</id>
+        </entry>
+        <entry>
+        <title>4 - CROWN HOLDINGS, INC. (0001219601) (Issuer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1219601/000143774924015314/0001437749-24-015314-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001437749-24-015314 &lt;b&gt;Size:&lt;/b&gt; 4 KB
+        </summary>
+        <updated>2024-05-08T13:29:34-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001437749-24-015314</id>
+        </entry>
+        <entry>
+        <title>4 - WILLIAMS MARSHA C (0001185609) (Reporting)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1185609/000143774924015314/0001437749-24-015314-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001437749-24-015314 &lt;b&gt;Size:&lt;/b&gt; 4 KB
+        </summary>
+        <updated>2024-05-08T13:29:34-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001437749-24-015314</id>
+        </entry>
+        <entry>
+        <title>X-17A-5 - THE BENCHMARK COMPANY, LLC (0000836902) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/836902/999999999724002520/9999999997-24-002520-index.htm"/>
+        <summary type="html">
+        &lt;b&gt;Film#:&lt;/b&gt; 24001153  &lt;b&gt;Filed:&lt;/b&gt; 2024-04-09 &lt;b&gt;AccNo:&lt;/b&gt; 9999999997-24-002520 &lt;b&gt;Size:&lt;/b&gt; 1 KB
+        </summary>
+        <updated>2024-05-08T13:28:46-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="X-17A-5"/>
+        <id>urn:tag:sec.gov,2008:accession-number=9999999997-24-002520</id>
+        </entry>
+        <entry>
+        <title>D - Impact Laboratory Services, Inc. (0002020524) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/2020524/000202052424000001/0002020524-24-000001-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0002020524-24-000001 &lt;b&gt;Size:&lt;/b&gt; 8 KB
+        </summary>
+        <updated>2024-05-08T13:28:45-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="D"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0002020524-24-000001</id>
+        </entry>
+        <entry>
+        <title>4 - Sweitzer Caesar F (0001540721) (Reporting)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1540721/000143774924015313/0001437749-24-015313-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001437749-24-015313 &lt;b&gt;Size:&lt;/b&gt; 4 KB
+        </summary>
+        <updated>2024-05-08T13:28:22-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001437749-24-015313</id>
+        </entry>
+        <entry>
+        <title>4 - CROWN HOLDINGS, INC. (0001219601) (Issuer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1219601/000143774924015313/0001437749-24-015313-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001437749-24-015313 &lt;b&gt;Size:&lt;/b&gt; 4 KB
+        </summary>
+        <updated>2024-05-08T13:28:22-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001437749-24-015313</id>
+        </entry>
+        <entry>
+        <title>D/A - Castor Ventures Fund 8, LLC (0001982927) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1982927/000198292724000001/0001982927-24-000001-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001982927-24-000001 &lt;b&gt;Size:&lt;/b&gt; 7 KB
+        &lt;br&gt;Item 3C: Investment Company Act Section 3(c)
+        &lt;br&gt;Item 3C.1: Section 3(c)(1)
+        </summary>
+        <updated>2024-05-08T13:27:29-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="D/A"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001982927-24-000001</id>
+        </entry>
+        <entry>
+        <title>D/A - Tactical Trading Managers (Managed Futures) LLC (0001214880) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1214880/000199460224000016/0001994602-24-000016-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001994602-24-000016 &lt;b&gt;Size:&lt;/b&gt; 7 KB
+        &lt;br&gt;Item 3C: Investment Company Act Section 3(c)
+        &lt;br&gt;Item 3C.7: Section 3(c)(7)
+        </summary>
+        <updated>2024-05-08T13:27:24-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="D/A"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001994602-24-000016</id>
+        </entry>
+        <entry>
+        <title>4 - Snyder Angela M (0001727249) (Reporting)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1727249/000143774924015310/0001437749-24-015310-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001437749-24-015310 &lt;b&gt;Size:&lt;/b&gt; 4 KB
+        </summary>
+        <updated>2024-05-08T13:26:57-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001437749-24-015310</id>
+        </entry>
+        <entry>
+        <title>4 - CROWN HOLDINGS, INC. (0001219601) (Issuer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1219601/000143774924015310/0001437749-24-015310-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001437749-24-015310 &lt;b&gt;Size:&lt;/b&gt; 4 KB
+        </summary>
+        <updated>2024-05-08T13:26:57-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001437749-24-015310</id>
+        </entry>
+        <entry>
+        <title>D/A - Hedge Fund Select: Millennium LLC (0001799090) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1799090/000199460224000015/0001994602-24-000015-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001994602-24-000015 &lt;b&gt;Size:&lt;/b&gt; 7 KB
+        &lt;br&gt;Item 3C: Investment Company Act Section 3(c)
+        &lt;br&gt;Item 3C.7: Section 3(c)(7)
+        </summary>
+        <updated>2024-05-08T13:26:35-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="D/A"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001994602-24-000015</id>
+        </entry>
+        <entry>
+        <title>C - Ampicity, Inc (0001996674) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1996674/000109690624001059/0001096906-24-001059-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001096906-24-001059 &lt;b&gt;Size:&lt;/b&gt; 9 MB
+        </summary>
+        <updated>2024-05-08T13:25:55-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="C"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001096906-24-001059</id>
+        </entry>
+        <entry>
+        <title>4 - Owens B Craig (0001446362) (Reporting)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1446362/000143774924015309/0001437749-24-015309-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001437749-24-015309 &lt;b&gt;Size:&lt;/b&gt; 4 KB
+        </summary>
+        <updated>2024-05-08T13:25:54-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001437749-24-015309</id>
+        </entry>
+        <entry>
+        <title>4 - CROWN HOLDINGS, INC. (0001219601) (Issuer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1219601/000143774924015309/0001437749-24-015309-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001437749-24-015309 &lt;b&gt;Size:&lt;/b&gt; 4 KB
+        </summary>
+        <updated>2024-05-08T13:25:54-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001437749-24-015309</id>
+        </entry>
+        <entry>
+        <title>D/A - Hedge Fund Select: Millennium Ltd (0001799098) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1799098/000199460224000014/0001994602-24-000014-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001994602-24-000014 &lt;b&gt;Size:&lt;/b&gt; 7 KB
+        &lt;br&gt;Item 3C: Investment Company Act Section 3(c)
+        &lt;br&gt;Item 3C.7: Section 3(c)(7)
+        </summary>
+        <updated>2024-05-08T13:25:14-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="D/A"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001994602-24-000014</id>
+        </entry>
+        <entry>
+        <title>4 - Muller Josef M (0001513920) (Reporting)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1513920/000143774924015308/0001437749-24-015308-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001437749-24-015308 &lt;b&gt;Size:&lt;/b&gt; 4 KB
+        </summary>
+        <updated>2024-05-08T13:24:30-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001437749-24-015308</id>
+        </entry>
+        <entry>
+        <title>4 - CROWN HOLDINGS, INC. (0001219601) (Issuer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1219601/000143774924015308/0001437749-24-015308-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001437749-24-015308 &lt;b&gt;Size:&lt;/b&gt; 4 KB
+        </summary>
+        <updated>2024-05-08T13:24:30-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001437749-24-015308</id>
+        </entry>
+        <entry>
+        <title>D - Thomas Management Real Estate Group II LLC (0002022676) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/2022676/000202267624000001/0002022676-24-000001-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0002022676-24-000001 &lt;b&gt;Size:&lt;/b&gt; 5 KB
+        </summary>
+        <updated>2024-05-08T13:24:03-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="D"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0002022676-24-000001</id>
+        </entry>
+        <entry>
+        <title>6-K - C21 Investments Inc. (0000831609) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/831609/000106299324009620/0001062993-24-009620-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001062993-24-009620 &lt;b&gt;Size:&lt;/b&gt; 102 KB
+        </summary>
+        <updated>2024-05-08T13:23:47-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="6-K"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001062993-24-009620</id>
+        </entry>
+        <entry>
+        <title>D/A - Global Tactical Trading Managers LLC (0001173391) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1173391/000199460224000013/0001994602-24-000013-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001994602-24-000013 &lt;b&gt;Size:&lt;/b&gt; 7 KB
+        &lt;br&gt;Item 3C: Investment Company Act Section 3(c)
+        &lt;br&gt;Item 3C.7: Section 3(c)(7)
+        </summary>
+        <updated>2024-05-08T13:23:30-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="D/A"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001994602-24-000013</id>
+        </entry>
+        <entry>
+        <title>13F-HR - Ethos Financial Group, LLC (0001954242) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1954242/000195424224000005/0001954242-24-000005-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001954242-24-000005 &lt;b&gt;Size:&lt;/b&gt; 157 KB
+        </summary>
+        <updated>2024-05-08T13:23:00-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="13F-HR"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001954242-24-000005</id>
+        </entry>
+        <entry>
+        <title>424B3 - Chilean Cobalt Corp. (0001727255) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1727255/000168316824003083/0001683168-24-003083-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001683168-24-003083 &lt;b&gt;Size:&lt;/b&gt; 60 KB
+        </summary>
+        <updated>2024-05-08T13:23:00-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="424B3"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001683168-24-003083</id>
+        </entry>
+        <entry>
+        <title>4 - MILLER JAMES H (0001226534) (Reporting)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1226534/000143774924015307/0001437749-24-015307-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001437749-24-015307 &lt;b&gt;Size:&lt;/b&gt; 4 KB
+        </summary>
+        <updated>2024-05-08T13:22:58-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001437749-24-015307</id>
+        </entry>
+        <entry>
+        <title>4 - CROWN HOLDINGS, INC. (0001219601) (Issuer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1219601/000143774924015307/0001437749-24-015307-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001437749-24-015307 &lt;b&gt;Size:&lt;/b&gt; 4 KB
+        </summary>
+        <updated>2024-05-08T13:22:58-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001437749-24-015307</id>
+        </entry>
+        <entry>
+        <title>8-K - SIMON PROPERTY GROUP INC /DE/ (0001063761) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1063761/000110465924058578/0001104659-24-058578-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-24-058578 &lt;b&gt;Size:&lt;/b&gt; 259 KB
+        &lt;br&gt;Item 5.07: Submission of Matters to a Vote of Security Holders
+        </summary>
+        <updated>2024-05-08T13:22:47-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="8-K"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001104659-24-058578</id>
+        </entry>
+        <entry>
+        <title>10-Q - CAMDEN NATIONAL CORP (0000750686) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/750686/000075068624000186/0000750686-24-000186-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0000750686-24-000186 &lt;b&gt;Size:&lt;/b&gt; 17 MB
+        </summary>
+        <updated>2024-05-08T13:22:15-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="10-Q"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0000750686-24-000186</id>
+        </entry>
+        <entry>
+        <title>D/A - Global Tactical Trading Managers plc (0001173392) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1173392/000199460224000012/0001994602-24-000012-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001994602-24-000012 &lt;b&gt;Size:&lt;/b&gt; 7 KB
+        &lt;br&gt;Item 3C: Investment Company Act Section 3(c)
+        &lt;br&gt;Item 3C.7: Section 3(c)(7)
+        </summary>
+        <updated>2024-05-08T13:22:02-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="D/A"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001994602-24-000012</id>
+        </entry>
+        <entry>
+        <title>8-K - Chilean Cobalt Corp. (0001727255) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1727255/000168316824003081/0001683168-24-003081-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001683168-24-003081 &lt;b&gt;Size:&lt;/b&gt; 226 KB
+        &lt;br&gt;Item 4.01: Changes in Registrant&#39;s Certifying Accountant
+        &lt;br&gt;Item 9.01: Financial Statements and Exhibits
+        </summary>
+        <updated>2024-05-08T13:22:01-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="8-K"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001683168-24-003081</id>
+        </entry>
+        <entry>
+        <title>4 - CROWN HOLDINGS, INC. (0001219601) (Issuer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1219601/000143774924015305/0001437749-24-015305-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001437749-24-015305 &lt;b&gt;Size:&lt;/b&gt; 4 KB
+        </summary>
+        <updated>2024-05-08T13:21:21-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001437749-24-015305</id>
+        </entry>
+        <entry>
+        <title>4 - HAGGE STEPHEN J (0001181124) (Reporting)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1181124/000143774924015305/0001437749-24-015305-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001437749-24-015305 &lt;b&gt;Size:&lt;/b&gt; 4 KB
+        </summary>
+        <updated>2024-05-08T13:21:21-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001437749-24-015305</id>
+        </entry>
+        <entry>
+        <title>D/A - GTCR XIV Access Offshore LP (0001967430) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1967430/000199460224000011/0001994602-24-000011-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001994602-24-000011 &lt;b&gt;Size:&lt;/b&gt; 8 KB
+        &lt;br&gt;Item 3C: Investment Company Act Section 3(c)
+        &lt;br&gt;Item 3C.7: Section 3(c)(7)
+        </summary>
+        <updated>2024-05-08T13:20:43-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="D/A"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001994602-24-000011</id>
+        </entry>
+        <entry>
+        <title>4 - Funk Andrea J. (0001713423) (Reporting)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1713423/000143774924015303/0001437749-24-015303-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001437749-24-015303 &lt;b&gt;Size:&lt;/b&gt; 4 KB
+        </summary>
+        <updated>2024-05-08T13:19:35-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001437749-24-015303</id>
+        </entry>
+        <entry>
+        <title>4 - CROWN HOLDINGS, INC. (0001219601) (Issuer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1219601/000143774924015303/0001437749-24-015303-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001437749-24-015303 &lt;b&gt;Size:&lt;/b&gt; 4 KB
+        </summary>
+        <updated>2024-05-08T13:19:35-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001437749-24-015303</id>
+        </entry>
+        <entry>
+        <title>10-Q - TOMPKINS FINANCIAL CORP (0001005817) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1005817/000100581724000014/0001005817-24-000014-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001005817-24-000014 &lt;b&gt;Size:&lt;/b&gt; 17 MB
+        </summary>
+        <updated>2024-05-08T13:18:31-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="10-Q"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001005817-24-000014</id>
+        </entry>
+        <entry>
+        <title>6-K/A - Pampa Energy Inc. (0001469395) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1469395/000129281424001926/0001292814-24-001926-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001292814-24-001926 &lt;b&gt;Size:&lt;/b&gt; 505 KB
+        </summary>
+        <updated>2024-05-08T13:18:17-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="6-K/A"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001292814-24-001926</id>
+        </entry>
+        <entry>
+        <title>D/A - Harvest Invest-071 LLC A Series of Harvest Invest LLC (0002013976) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/2013976/000201397624000004/0002013976-24-000004-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0002013976-24-000004 &lt;b&gt;Size:&lt;/b&gt; 6 KB
+        </summary>
+        <updated>2024-05-08T13:17:33-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="D/A"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0002013976-24-000004</id>
+        </entry>
+        <entry>
+        <title>D/A - GTCR XIV Access LLC (0001967429) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1967429/000199460224000010/0001994602-24-000010-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001994602-24-000010 &lt;b&gt;Size:&lt;/b&gt; 8 KB
+        &lt;br&gt;Item 3C: Investment Company Act Section 3(c)
+        &lt;br&gt;Item 3C.7: Section 3(c)(7)
+        </summary>
+        <updated>2024-05-08T13:16:22-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="D/A"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001994602-24-000010</id>
+        </entry>
+        <entry>
+        <title>X-17A-5 - HARBOUR INVESTMENTS, INC. (0000810121) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/810121/999999999724002518/9999999997-24-002518-index.htm"/>
+        <summary type="html">
+        &lt;b&gt;Film#:&lt;/b&gt; 24002933  &lt;b&gt;Filed:&lt;/b&gt; 2024-04-01 &lt;b&gt;AccNo:&lt;/b&gt; 9999999997-24-002518 &lt;b&gt;Size:&lt;/b&gt; 1 KB
+        </summary>
+        <updated>2024-05-08T13:15:53-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="X-17A-5"/>
+        <id>urn:tag:sec.gov,2008:accession-number=9999999997-24-002518</id>
+        </entry>
+        <entry>
+        <title>4 - Buesinger Robert F. (0001488587) (Reporting)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1488587/000095017024055345/0000950170-24-055345-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0000950170-24-055345 &lt;b&gt;Size:&lt;/b&gt; 8 KB
+        </summary>
+        <updated>2024-05-08T13:15:19-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0000950170-24-055345</id>
+        </entry>
+        <entry>
+        <title>4 - WESTLAKE CORP (0001262823) (Issuer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1262823/000095017024055345/0000950170-24-055345-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0000950170-24-055345 &lt;b&gt;Size:&lt;/b&gt; 8 KB
+        </summary>
+        <updated>2024-05-08T13:15:19-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0000950170-24-055345</id>
+        </entry>
+        <entry>
+        <title>13F-HR - Motley Fool Wealth Management, LLC (0001607978) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1607978/000110465924058576/0001104659-24-058576-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001104659-24-058576 &lt;b&gt;Size:&lt;/b&gt; 62 KB
+        </summary>
+        <updated>2024-05-08T13:15:18-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="13F-HR"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001104659-24-058576</id>
+        </entry>
+        <entry>
+        <title>13F-HR - Advisors Preferred, LLC (0001598841) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1598841/000159884124000002/0001598841-24-000002-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001598841-24-000002 &lt;b&gt;Size:&lt;/b&gt; 98 KB
+        </summary>
+        <updated>2024-05-08T13:15:13-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="13F-HR"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001598841-24-000002</id>
+        </entry>
+        <entry>
+        <title>X-17A-5 - SIGNATURE ESTATE SECURITIES, LLC (0000807721) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/807721/999999999724002517/9999999997-24-002517-index.htm"/>
+        <summary type="html">
+        &lt;b&gt;Film#:&lt;/b&gt; 24000993  &lt;b&gt;Filed:&lt;/b&gt; 2024-04-03 &lt;b&gt;AccNo:&lt;/b&gt; 9999999997-24-002517 &lt;b&gt;Size:&lt;/b&gt; 1 KB
+        </summary>
+        <updated>2024-05-08T13:14:32-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="X-17A-5"/>
+        <id>urn:tag:sec.gov,2008:accession-number=9999999997-24-002517</id>
+        </entry>
+        <entry>
+        <title>N-CSRS - Northern Lights Fund Trust IV (0001644419) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1644419/000158064224002611/0001580642-24-002611-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001580642-24-002611 &lt;b&gt;Size:&lt;/b&gt; 803 KB
+        </summary>
+        <updated>2024-05-08T13:12:49-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="N-CSRS"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001580642-24-002611</id>
+        </entry>
+        <entry>
+        <title>4 - FS Bancorp, Inc. (0001530249) (Issuer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1530249/000093905724000100/0000939057-24-000100-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0000939057-24-000100 &lt;b&gt;Size:&lt;/b&gt; 6 KB
+        </summary>
+        <updated>2024-05-08T13:12:45-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0000939057-24-000100</id>
+        </entry>
+        <entry>
+        <title>4 - Degner Terri L (0001505271) (Reporting)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1505271/000093905724000100/0000939057-24-000100-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0000939057-24-000100 &lt;b&gt;Size:&lt;/b&gt; 6 KB
+        </summary>
+        <updated>2024-05-08T13:12:45-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0000939057-24-000100</id>
+        </entry>
+        <entry>
+        <title>424B2 - GS Finance Corp. (0001419828) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1419828/000095017024055341/0000950170-24-055341-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0000950170-24-055341 &lt;b&gt;Size:&lt;/b&gt; 461 KB
+        </summary>
+        <updated>2024-05-08T13:12:27-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="424B2"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0000950170-24-055341</id>
+        </entry>
+        <entry>
+        <title>424B2 - GOLDMAN SACHS GROUP INC (0000886982) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/886982/000095017024055341/0000950170-24-055341-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0000950170-24-055341 &lt;b&gt;Size:&lt;/b&gt; 461 KB
+        </summary>
+        <updated>2024-05-08T13:12:27-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="424B2"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0000950170-24-055341</id>
+        </entry>
+        <entry>
+        <title>X-17A-5 - MAINE SECURITIES CORPORATION (0000779156) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/779156/999999999724002516/9999999997-24-002516-index.htm"/>
+        <summary type="html">
+        &lt;b&gt;Film#:&lt;/b&gt; 24001123  &lt;b&gt;Filed:&lt;/b&gt; 2024-04-15 &lt;b&gt;AccNo:&lt;/b&gt; 9999999997-24-002516 &lt;b&gt;Size:&lt;/b&gt; 1 KB
+        </summary>
+        <updated>2024-05-08T13:12:21-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="X-17A-5"/>
+        <id>urn:tag:sec.gov,2008:accession-number=9999999997-24-002516</id>
+        </entry>
+        <entry>
+        <title>D - Livermore Strategic Opportunities, LP (0002022310) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/2022310/000202231024000001/0002022310-24-000001-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0002022310-24-000001 &lt;b&gt;Size:&lt;/b&gt; 7 KB
+        &lt;br&gt;Item 3C: Investment Company Act Section 3(c)
+        &lt;br&gt;Item 3C.7: Section 3(c)(7)
+        </summary>
+        <updated>2024-05-08T13:12:05-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="D"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0002022310-24-000001</id>
+        </entry>
+        <entry>
+        <title>X-17A-5 - THE CARNEY GROUP, INCORPORATED (0000772023) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/772023/999999999724002515/9999999997-24-002515-index.htm"/>
+        <summary type="html">
+        &lt;b&gt;Film#:&lt;/b&gt; 24001116  &lt;b&gt;Filed:&lt;/b&gt; 2024-04-10 &lt;b&gt;AccNo:&lt;/b&gt; 9999999997-24-002515 &lt;b&gt;Size:&lt;/b&gt; 1 KB
+        </summary>
+        <updated>2024-05-08T13:11:32-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="X-17A-5"/>
+        <id>urn:tag:sec.gov,2008:accession-number=9999999997-24-002515</id>
+        </entry>
+        <entry>
+        <title>D - SBX Co-Investment Fund, LP (0002022064) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/2022064/000202206424000002/0002022064-24-000002-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0002022064-24-000002 &lt;b&gt;Size:&lt;/b&gt; 7 KB
+        &lt;br&gt;Item 3C: Investment Company Act Section 3(c)
+        &lt;br&gt;Item 3C.7: Section 3(c)(7)
+        </summary>
+        <updated>2024-05-08T13:11:23-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="D"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0002022064-24-000002</id>
+        </entry>
+        <entry>
+        <title>NPORT-P - NC SLF Inc. (0001844684) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1844684/000114554924026305/0001145549-24-026305-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001145549-24-026305 &lt;b&gt;Size:&lt;/b&gt; 862 KB
+        </summary>
+        <updated>2024-05-08T13:09:50-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="NPORT-P"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001145549-24-026305</id>
+        </entry>
+        <entry>
+        <title>4 - CROWN HOLDINGS, INC. (0001219601) (Issuer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1219601/000143774924015302/0001437749-24-015302-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001437749-24-015302 &lt;b&gt;Size:&lt;/b&gt; 4 KB
+        </summary>
+        <updated>2024-05-08T13:09:50-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001437749-24-015302</id>
+        </entry>
+        <entry>
+        <title>4 - FEARON RICHARD H (0001188586) (Reporting)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1188586/000143774924015302/0001437749-24-015302-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001437749-24-015302 &lt;b&gt;Size:&lt;/b&gt; 4 KB
+        </summary>
+        <updated>2024-05-08T13:09:50-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001437749-24-015302</id>
+        </entry>
+        <entry>
+        <title>10-Q - VERU INC. (0000863894) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/863894/000086389424000011/0000863894-24-000011-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0000863894-24-000011 &lt;b&gt;Size:&lt;/b&gt; 11 MB
+        </summary>
+        <updated>2024-05-08T13:09:33-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="10-Q"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0000863894-24-000011</id>
+        </entry>
+        <entry>
+        <title>X-17A-5 - EMPIRE INVESTMENT INC. (0000763920) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/763920/999999999724002514/9999999997-24-002514-index.htm"/>
+        <summary type="html">
+        &lt;b&gt;Film#:&lt;/b&gt; 24001002  &lt;b&gt;Filed:&lt;/b&gt; 2024-04-03 &lt;b&gt;AccNo:&lt;/b&gt; 9999999997-24-002514 &lt;b&gt;Size:&lt;/b&gt; 1 KB
+        </summary>
+        <updated>2024-05-08T13:09:29-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="X-17A-5"/>
+        <id>urn:tag:sec.gov,2008:accession-number=9999999997-24-002514</id>
+        </entry>
+        <entry>
+        <title>4 - Yang Rong (0001934490) (Reporting)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1934490/000162828024021518/0001628280-24-021518-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001628280-24-021518 &lt;b&gt;Size:&lt;/b&gt; 4 KB
+        </summary>
+        <updated>2024-05-08T13:08:55-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001628280-24-021518</id>
+        </entry>
+        <entry>
+        <title>4 - NATURES SUNSHINE PRODUCTS INC (0000275053) (Issuer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/275053/000162828024021518/0001628280-24-021518-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001628280-24-021518 &lt;b&gt;Size:&lt;/b&gt; 4 KB
+        </summary>
+        <updated>2024-05-08T13:08:55-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001628280-24-021518</id>
+        </entry>
+        <entry>
+        <title>4 - Wissmiller Heidi (0001821126) (Reporting)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1821126/000162828024021517/0001628280-24-021517-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001628280-24-021517 &lt;b&gt;Size:&lt;/b&gt; 4 KB
+        </summary>
+        <updated>2024-05-08T13:08:36-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001628280-24-021517</id>
+        </entry>
+        <entry>
+        <title>4 - NATURES SUNSHINE PRODUCTS INC (0000275053) (Issuer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/275053/000162828024021517/0001628280-24-021517-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001628280-24-021517 &lt;b&gt;Size:&lt;/b&gt; 4 KB
+        </summary>
+        <updated>2024-05-08T13:08:36-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001628280-24-021517</id>
+        </entry>
+        <entry>
+        <title>4 - PAGE G RUFFNER JR (0001199872) (Reporting)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1199872/000156218024003904/0001562180-24-003904-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001562180-24-003904 &lt;b&gt;Size:&lt;/b&gt; 5 KB
+        </summary>
+        <updated>2024-05-08T13:08:27-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001562180-24-003904</id>
+        </entry>
+        <entry>
+        <title>4 - SouthState Corp (0000764038) (Issuer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/764038/000156218024003904/0001562180-24-003904-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001562180-24-003904 &lt;b&gt;Size:&lt;/b&gt; 5 KB
+        </summary>
+        <updated>2024-05-08T13:08:27-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001562180-24-003904</id>
+        </entry>
+        <entry>
+        <title>13F-HR - Stonegate Management LLC (0001877054) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1877054/000106299324009618/0001062993-24-009618-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001062993-24-009618 &lt;b&gt;Size:&lt;/b&gt; 3 KB
+        </summary>
+        <updated>2024-05-08T13:08:26-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="13F-HR"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001062993-24-009618</id>
+        </entry>
+        <entry>
+        <title>X-17A-5 - RANCE KING SECURITIES CORP. (0000742327) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/742327/999999999724002513/9999999997-24-002513-index.htm"/>
+        <summary type="html">
+        &lt;b&gt;Film#:&lt;/b&gt; 24001074  &lt;b&gt;Filed:&lt;/b&gt; 2024-03-04 &lt;b&gt;AccNo:&lt;/b&gt; 9999999997-24-002513 &lt;b&gt;Size:&lt;/b&gt; 1 KB
+        </summary>
+        <updated>2024-05-08T13:08:26-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="X-17A-5"/>
+        <id>urn:tag:sec.gov,2008:accession-number=9999999997-24-002513</id>
+        </entry>
+        <entry>
+        <title>4 - Kopf Curtis (0001902903) (Reporting)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1902903/000162828024021516/0001628280-24-021516-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-08 &lt;b&gt;AccNo:&lt;/b&gt; 0001628280-24-021516 &lt;b&gt;Size:&lt;/b&gt; 4 KB
+        </summary>
+        <updated>2024-05-08T13:08:23-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="4"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001628280-24-021516</id>
+        </entry>
+        </feed>
+  recorded_at: Wed, 08 May 2024 17:45:02 GMT
+recorded_with: VCR 6.2.0

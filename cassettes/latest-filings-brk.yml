@@ -1,0 +1,71 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.sec.gov/cgi-bin/browse-edgar?CIK=1067983&action=getcurrent&company=&count=100&dateb=&output=atom&owner=include&start=0&type=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Sdk Tests rspec@do-not-reply.com
+      Host:
+      - www.sec.gov
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/atom+xml
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - no-cache
+      Date:
+      - Wed, 08 May 2024 17:57:01 GMT
+      Content-Length:
+      - '1237'
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000 ; includeSubDomains ; preload
+    body:
+      encoding: UTF-8
+      string: |
+        <?xml version="1.0" encoding="ISO-8859-1" ?>
+        <feed xmlns="http://www.w3.org/2005/Atom">
+        <title>Latest Filings - Wed, 08 May 2024 13:57:01 EDT</title>
+        <link rel="alternate" href="/cgi-bin/browse-edgar?action=getcurrent"/>
+        <link rel="self" href="/cgi-bin/browse-edgar?action=getcurrent"/>
+        <id>https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent</id>
+        <author><name>Webmaster</name><email>webmaster@sec.gov</email></author>
+        <updated>2024-05-08T13:57:01-04:00</updated>
+        <entry>
+        <title>8-K - BERKSHIRE HATHAWAY INC (0001067983) (Filer)</title>
+        <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1067983/000119312524133049/0001193125-24-133049-index.htm"/>
+        <summary type="html">
+         &lt;b&gt;Filed:&lt;/b&gt; 2024-05-07 &lt;b&gt;AccNo:&lt;/b&gt; 0001193125-24-133049 &lt;b&gt;Size:&lt;/b&gt; 313 KB
+        &lt;br&gt;Item 2.02: Results of Operations and Financial Condition
+        &lt;br&gt;Item 5.07: Submission of Matters to a Vote of Security Holders
+        &lt;br&gt;Item 9.01: Financial Statements and Exhibits
+        </summary>
+        <updated>2024-05-07T15:42:02-04:00</updated>
+        <category scheme="https://www.sec.gov/" label="form type" term="8-K"/>
+        <id>urn:tag:sec.gov,2008:accession-number=0001193125-24-133049</id>
+        </entry>
+        </feed>
+  recorded_at: Wed, 08 May 2024 17:57:02 GMT
+recorded_with: VCR 6.2.0

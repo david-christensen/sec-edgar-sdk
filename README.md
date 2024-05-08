@@ -65,6 +65,8 @@ Then `search_result.to_h` will look something like:
 }
 ```
 
+
+
 ### Tests
 `bundle exec rspec`
 
