@@ -29,20 +29,7 @@ module SecEdgar
           entry['form'] = entry_node.css('category').attr('term').value
 
           entry['summary'] = entry_node.css('summary').text
-
-          begin
-            summary = entry['summary'].gsub("\n ", '').gsub("\n", '')
-  
-            _filed_lbl, date_filed, _acc_no_lbl, accession_number, _size_lbl, size = entry['summary'].split('</b>').map(&:strip).map{|str| str.split(' <b>')}.flatten
-  
-            entry['summary_data'] = {
-              'date_filed' => date_filed,
-              'accession_number' => accession_number,
-              'size' => size
-            }
-          rescue
-            entry['summary_data'] = nil
-          end
+          entry['summary_data'] = SecEdgar::Parsers::RSS.parse_summary(entry['summary'])
 
           entry['updated'] = entry_node.css('updated').text
           entry['id'] = entry_node.css('id').text

@@ -18,17 +18,17 @@ module SecEdgar
       end
 
       def self.parse_summary(summary)
-        summary = entry['summary'].gsub("\n ", '').gsub("\n", '')
+        summary = summary.gsub("\n ", '').gsub("\n", '')
 
-        _filed_lbl, date_filed, _acc_no_lbl, accession_number, _size_lbl, size = entry['summary'].split('</b>').map(&:strip).map{|str| str.split(' <b>')}.flatten
+        _filed_lbl, date_filed, _acc_no_lbl, accession_number, _size_lbl, size = summary.split('</b>').map(&:strip).map{|str| str.split(' <b>')}.flatten
 
-        entry['summary_data'] = {
+        {
           'date_filed' => date_filed,
           'accession_number' => accession_number,
           'size' => size
         }
       rescue
-        entry['summary_data'] = nil
+        nil
       end
     end
   end
