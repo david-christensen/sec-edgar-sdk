@@ -79,13 +79,8 @@ module SecEdgar
   
     parser Parser::Atom
 
-    # Fetch a given entity's current filing(submission) history.
-    #
-    # @cik [String] An entity's Central Index Key (CIK).
-    # Leading zeros are optional - they'll be added when necessary.
-    # CIK=&type=&company=&dateb=&owner=include&start=2000&count=100&output=atom
-    # 
-    # 2021-10-17 https://www.sec.gov/about/sec-rss
+    # Fetch latest filings from SEC EDGAR
+    # https://www.sec.gov/about/sec-rss
     def self.fetch(cik: nil, type: nil, company: nil, dateb: nil, owner: 'include', start: 0, count: 100, output: 'atom')
       unless ENV['SEC_EDGAR_USER_AGENT'].present?
         raise StandardError, "SEC_EDGAR_USER_AGENT not set!"

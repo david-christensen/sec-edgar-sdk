@@ -81,7 +81,7 @@ RSpec.describe SecEdgar::LatestFilings do
       let(:pages) { [page_one, page_two, page_three] }
 
       around do |example|
-        VCR.use_cassette('latest-filings-brk-3-pages') do
+        VCR.use_cassette('latest-filings-3-pages') do
           example.run
         end
       end
@@ -103,7 +103,7 @@ RSpec.describe SecEdgar::LatestFilings do
       subject { described_class.fetch(start: 2500) } # 2100 seems to be the max, by observation
 
       around do |example|
-        VCR.use_cassette('latest-filings-brk-page-dne') do
+        VCR.use_cassette('latest-filings-page-dne') do
           example.run
         end
       end
