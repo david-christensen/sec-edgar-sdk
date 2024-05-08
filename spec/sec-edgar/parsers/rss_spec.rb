@@ -4,7 +4,7 @@ RSpec.describe SecEdgar::Parsers::RSS do
   describe '.parse_title' do
     subject { described_class.parse_title(title) }
 
-    xcontext 'when title is for a subject with (Group) in the middle' do
+    context 'when title is for a subject with (Group) in the middle' do
       let(:title) { 'F-6EF - Sunny Optical Technology (Group) Co Limited/ADR (0001601992) (Subject)' }
 
       it 'parses cik' do
@@ -15,8 +15,8 @@ RSpec.describe SecEdgar::Parsers::RSS do
       end
     end
 
-    xcontext 'when title has multiple dashes' do
-      let(:title) { '"F-6EF - JPMorgan Chase Bank, N.A. - ADR Depositary (0001474274) (Filed by)' }
+    context 'when title has multiple dashes' do
+      let(:title) { 'F-6EF - JPMorgan Chase Bank, N.A. - ADR Depositary (0001474274) (Filed by)' }
 
       it 'parses cik' do
         expect(subject['cik']).to eq('0001474274')
